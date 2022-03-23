@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+
+
+
+    <item
+        android:id="@+id/skin"
+        android:icon="@drawable/skin"
+        android:title="皮肤"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/reminders"
+        android:title="设置提醒"/>
+    <item
+        android:id="@+id/settingPrivate"
+        android:title="设为私密"/>
+    <item
+        android:id="@+id/add_photo"
+        android:title="插入图片"/>
+    <item
+        android:id="@+id/delete"
+        android:title="删除"/>
+</menu>
